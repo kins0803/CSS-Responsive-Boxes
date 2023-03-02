@@ -1,3 +1,28 @@
 body {
   background: blanchedalmond;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  align-items: center;
+}
+.a {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 10px;
+}
+.b {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 10px;
+}
+.c {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 10px;
+}
