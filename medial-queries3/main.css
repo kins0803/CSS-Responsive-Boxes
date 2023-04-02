@@ -1,3 +1,65 @@
 body {
   background: peachpuff;
 }
+
+* {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap:1%;
+  padding:0;
+  margin: auto;
+}
+
+.a {
+  background: lightblue;
+  height:20vh;
+}
+
+.main {
+  height:40vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.b, .c, .d, .e, .f,.g {
+  background: lightblue;
+  max-height: 45%;
+  width:30%;
+}
+
+.h {
+  background: lightblue;
+  height:40vh;
+  justify-content: flex-end;
+}
+
+@media(min-width:600px) {
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    gap:1%;
+    padding:0;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100%;
+  }
+
+  .main {
+    width:74%;
+  }
+  .h {
+    width:24%;
+  }
+}
